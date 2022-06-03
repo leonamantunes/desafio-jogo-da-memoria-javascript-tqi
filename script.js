@@ -56,7 +56,7 @@ function resetBoard() {
     [firstCard, secondCard] = [null, null];
 }
 
-//função que embaralha as cartas
+//função para embaralhar as cartas
 (function shuffle() {
     cards.forEach((card) => {
         let ramdomPosition = Math.floor(Math.random() * 12);
